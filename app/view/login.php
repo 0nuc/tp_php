@@ -9,8 +9,8 @@
 
     <h2>Connexion</h2>
     <form action="/login" method="POST">
-        <label for="username">Nom d'utilisateur :</label><br>
-        <input type="text" id="username"  required><br><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
         <label for="password">Mot de passe :</label><br>
         <input type="password" id="password" required><br><br>
