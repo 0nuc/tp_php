@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire d'inscription</title>
+    <title>Formulaire de connexion</title>
 </head>
 <body>
 
-    <h2>Inscription</h2>
-    <form action="/signup" method="POST">
+    <h2>Connexion</h2>
+    <form action="/login" method="POST">
         <label for="username">Nom d'utilisateur :</label><br>
-        <input type="text" id="username" required><br><br>
-
-        <label for="email">Email :</label><br>
-        <input type="email" id="email" required><br><br>
+        <input type="text" id="username"  required><br><br>
 
         <label for="password">Mot de passe :</label><br>
         <input type="password" id="password" required><br><br>
 
-        <label for="confirm_password">Confirmer le mot de passe :</label><br>
-        <input type="password" id="confirm_password" <br><br>
-
-        <input type="submit" value="S'inscrire">
+        <input type="submit" value="Se connecter">
     </form>
 
 </body>
